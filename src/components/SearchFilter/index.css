@@ -1,0 +1,34 @@
+
+.searchinput{
+background: #fff;
+font-color:#000;
+width:20vw;
+min-width:180px;
+padding:8px;
+ border: 1px solid #dfdfdf;
+  border-radius: 3px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .searchinput{
+    width:97vw;
+  }
+
+}
+input[type="search"] {
+  background: none;
+  border: 0;
+  font-size:14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  height:100%;
+  width:100%;
+  outline:none;
+}
+
+input::placeholder { 
+  color:rgba(0,0,0,0.5);
+  opacity: 1; 
+}

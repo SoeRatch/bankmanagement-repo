@@ -1,0 +1,20 @@
+.wrapper{
+	position: relative;
+	margin:0;
+	padding: 0;
+}
+
+.mainpanel{
+	position: relative;
+	margin:0;
+	padding: 0;
+	margin-top: 150px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+.mainpanel{
+	margin-top: 200px;
+}
+
+}

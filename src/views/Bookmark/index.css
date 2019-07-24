@@ -1,0 +1,13 @@
+.bodyWrapper{
+  margin:0;
+  padding:0;
+  position: relative;
+  margin-top: 150px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+.bodyWrapper{
+	margin-top: 200px;
+}
+
+}
